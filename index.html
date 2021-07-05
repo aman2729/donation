@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"> 
+	<title>Donate</title>
+</head>
+<body>
+	<div class="containers">
+		<div class="navbars">
+			<div class="left">
+				<h1>AS Foundation</h1>
+			</div>
+			<div class="right" id="list">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#about">About Us</a></li>
+					<li><a href="https://rzp.io/l/ry1MUr6vma">Donate</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+			<div onclick="myfun()" class="menu_bar">
+			  	<img src="images/menu.png">
+			  </div>
+			
+
+		</div>
+		<div class="sections">
+			<div class="left_sec">
+				<h1>AS Foundation</h1>
+				<p>Donate for India</p>
+
+				<h3>Donate funds online for medical emergencies and social causes</h3>
+				<a href="https://rzp.io/l/ry1MUr6vma"><button>Donate</button></a>
+			</div>	
+			<div class="right_sec">
+				<img src="images/medical.jpg">
+			</div>			
+			
+			</div>
+
+             <div class="about" id="about">
+             	<div class="about_head">
+					<h1>About Us</h1>
+				</div>
+                <div class="about_sec">
+					<p><span>AS Foundation</span> Helps Poor and Needy people by provinding funds for Medical Emergencies and Education Purpose</p>
+					
+				</div>
+				<div class="about_don">
+					<h1>Donate For Special Cause</h1>
+					
+				</div>
+				<div class="about_img">
+					<div class="img" id="covid">
+						<img src="images/covid.png">
+						<h2>COVID-19</h2>
+					</div>
+					<div class="img">
+						<img src="images/med.png">
+						<h2>Medical</h2>
+					</div>
+					<div class="img">
+						<img src="images/memo.png">
+						<h2>Education</h2>
+					</div>
+						
+					</div>
+             </div>
+            <div class="fund">
+            	<h2>Every donation to this fund will help stop the virus's spread and support vulnerable families to tide over COVID-19</h2>
+            </div>
+			<div class="contact" id="contact">
+				<div class="contact_head">
+					<h1>Contact Us</h1>
+				</div>
+				<div class="contact_sec">
+					<form>
+						<div class="details">
+							<label>Name</label><br>
+							<input type="text" name="" placeholder="enter Your name">
+						</div>
+						<div class="details">
+							<label>Email</label><br>
+							<input type="email" name="" placeholder="enter Your Email">
+						</div>
+						<div class="details">
+							<label>Mobile No.</label><br>
+							<input type="number" name="" placeholder="enter Your Phone No.">
+						</div>
+						<div class="details">
+							<label>Message</label><br>
+							<textarea placeholder="enter Your Message"></textarea> 
+						</div>
+						<div class="details">
+							
+							<button type="submit">SEND MESSAGE</button>
+						</div>
+					</form>
+				</div>
+			</div>
+          
+          <div class="footer">
+          	<h3>©️ 2021 Donate. All Rights Reserved | Design made with ❤️</h3>
+          </div>
+
+      </div>
+	</div>
+
+	
+
+<script type="text/javascript">
+	function myfun(){
+		 var e=document.getElementById('list');
+		if(e.className==="right"){
+			e.className += " responsive";
+		}
+		else{
+			e.className = "right";
+		}
+	}
+</script>
+</body>
+</html>
